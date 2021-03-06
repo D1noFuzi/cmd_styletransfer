@@ -13,7 +13,7 @@ If you have any questions, please let me <a href="mailto:nikolai.kalischek@geod.
 ### Instructions
 Running neural style transfer with Central Moment Discrepancy is as easy as running `main.py`. 
 You have the following command line arguments to change to your needs:
-<code>
+<pre>
   --c_img The content image that is being stylized.
   --s_img The style image
   --epsilon Iterative optimization is stopped if delta value of moving average loss is smaller than this value.
@@ -21,6 +21,6 @@ You have the following command line arguments to change to your needs:
   --alpha Convex interpolation of style and content loss (should be set high > 0.9 since we start with content as target)
   --lr Learning rate of Adam optimizer
   --im_size Output image size. Can either be single integer for keeping aspect ratio or tuple.
-</code>
+</pre>
 
 ### Citations
