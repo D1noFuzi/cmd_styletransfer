@@ -19,7 +19,8 @@ You have the following command line arguments to change to your needs:
 <pre>
   --c_img         The content image that is being stylized.
   --s_img         The style image
-  --epsilon       Iterative optimization is stopped if delta value of moving average loss is smaller than this value.
+  --epsilon       Iterative optimization is stopped if delta value of 
+                  moving average loss is smaller than this value.
   --max_iter      Maximum iterations if epsilon is not surpassed
   --alpha         Convex interpolation of style and content loss 
                   (should be set high > 0.9 since we start with content as target)
