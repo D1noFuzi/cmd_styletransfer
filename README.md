@@ -2,4 +2,13 @@
 
 This repository provides code to recreate results presented in [In the light of feature distributions: Moment matching for Neural Style Transfer](https://linktoarxiv.follows).
 
+For more information, please see the [project website](https://linkfollowssoon.github.io)
+
 <hr />
+<img src="assets/teaser.jpg" />
+#### Contact
+If you have any questions, please let me [know](mailto:nikolai.kalischek@geod.baug.ethz.ch)
+
+### Instructions
+
+### Citations
