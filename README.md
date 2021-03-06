@@ -6,8 +6,9 @@ For more information, please see the [project website](https://linkfollowssoon.g
 
 <hr />
 <img src="assets/teaser.jpg" />
-#### Contact
-If you have any questions, please let me [know](mailto:nikolai.kalischek@geod.baug.ethz.ch)
+
+### Contact
+If you have any questions, please let me <a href="mailto:nikolai.kalischek@geod.baug.ethz.ch">know</a>
 
 ### Instructions
 
