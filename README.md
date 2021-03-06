@@ -11,7 +11,10 @@ For more information, please see the [project website](https://linkfollowssoon.g
 If you have any questions, please let me <a href="mailto:nikolai.kalischek@geod.baug.ethz.ch">know</a>
 
 ### Instructions
-Running neural style transfer with Central Moment Discrepancy is as easy as running `main.py`. 
+Running neural style transfer with Central Moment Discrepancy is as easy as running 
+```shell
+python main.py --c_img ./path/to/content.jpg --s_img ./path/to/style.jpg
+``` 
 You have the following command line arguments to change to your needs:
 <pre>
   --c_img The content image that is being stylized.
