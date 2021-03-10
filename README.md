@@ -8,7 +8,7 @@ For more information, please see the [project website](https://linkfollowssoon.g
 <img src="assets/teaser.jpg" />
 
 ### Contact
-If you have any questions, please let me <a href="javascript:location='mailto:\u006e\u0069\u006b\u006f\u006c\u0061\u0069\u002e\u006b\u0061\u006c\u0069\u0073\u0063\u0068\u0065\u006b\u0040\u0067\u0065\u006f\u0064\u002e\u0062\u0061\u0075\u0067\u002e\u0065\u0074\u0068\u007a\u002e\u0063\u0068';void 0">know</a>
+If you have any questions, please let me <a href='m&#97;i&#108;to&#58;niko&#37;6Ca&#105;%2&#69;%6Ba&#37;&#54;&#67;i&#37;7&#51;c&#37;68&#101;k&#64;ge&#37;&#54;Fd&#46;bau%67&#46;&#101;&#116;h%7A&#46;%6&#51;&#104;'>know</a>
 
 ### Instructions
 Running neural style transfer with Central Moment Discrepancy is as easy as running 
