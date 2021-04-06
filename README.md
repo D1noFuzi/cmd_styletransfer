@@ -1,8 +1,8 @@
 ## In the light of feature distributions: Moment matching for Neural Style Transfer (CVPR 2021)
 
-This repository provides code to recreate results presented in [In the light of feature distributions: Moment matching for Neural Style Transfer](https://linktoarxiv.follows).
+This repository provides code to recreate results presented in [In the light of feature distributions: Moment matching for Neural Style Transfer](https://arxiv.org/abs/2103.07208).
 
-For more information, please see the [project website](https://linkfollowssoon.github.io)
+For more information, please see the [project website](https://cmdnst.github.io/)
 
 <hr />
 <img src="assets/teaser.jpg" />
@@ -30,5 +30,12 @@ You have the following command line arguments to change to your needs:
 
 ### Citations
 ```
-Follows soon.
+@article{kalischek2021light,
+      title={In the light of feature distributions: moment matching for Neural Style Transfer}, 
+      author={Nikolai Kalischek and Jan Dirk Wegner and Konrad Schindler},
+      year={2021},
+      eprint={2103.07208},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
