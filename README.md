@@ -2,7 +2,7 @@
 
 This repository provides code to recreate results presented in [In the light of feature distributions: Moment matching for Neural Style Transfer](https://arxiv.org/abs/2103.07208).
 
-For more information, please see the [project website](https://cmdnst.github.io/)
+For more information, please see the [project website](https://cmdnst.github.io/) and make sure to check out our medium blog post [here](https://medium.com/ecovisioneth/6e5300a5c57b?source=friends_link&sk=63dc9a371ab365f01268d31a6dce742d)
 
 <hr />
 <img src="assets/teaser.jpg" />
