@@ -1,4 +1,5 @@
 import sys
+import os
 import argparse
 import matplotlib.pyplot as plt
 import timeit
@@ -13,6 +14,7 @@ from dataset import SingleStyleData
 from model import VGG
 from losses import ContentLoss, StyleLoss
 
+from PIL import Image as pimg
 
 class CMDStyleTransfer:
 
@@ -113,7 +115,7 @@ if __name__ == "__main__":
     parser.add_argument('--lr', type=float, default=0.1, help='Learning rate used during optimization')
     parser.add_argument('--c_img', type=str, default='./images/content/pablo_picasso.jpg', help='Path to content image')
     parser.add_argument('--s_img', type=str, default='./images/style/picasso.jpg', help='Path to style image')
-    parser.add_argument('--im_size', type=int, default=512, nargs='+', help='Image size. Either single int or tuple of int')
+    parser.add_argument('--im_size', type=int, default=720, nargs='+', help='Image size. Either single int or tuple of int')
     args = parser.parse_args()
 
     vgg_weights = [1e3/n**2 for n in [64, 128, 256, 512, 512]]
@@ -129,9 +131,13 @@ if __name__ == "__main__":
     stylized_image = cmd_transfer.get_current_image()
 
     # Plot result
-    fig = plt.figure(figsize=(10, 10), facecolor='white')
-    ax = plt.Axes(fig, [0., 0., 1., 1.])
-    plt.axis('off')
-    plt.title('Stylized image')
-    plt.imshow(stylized_image)
-    plt.show()
+    if False:
+        fig = plt.figure(figsize=(10, 10), facecolor='white')
+        ax = plt.Axes(fig, [0., 0., 1., 1.])
+        plt.axis('off')
+        plt.title('Stylized image')
+        plt.imshow(stylized_image)
+        plt.show()
+    else:
+        saveName = os.path.splitext(os.path.basename(args.c_img))[0] + '-' + os.path.splitext(os.path.basename(args.s_img))[0] + ".png"
+        stylized_image.save(saveName,"PNG")
